@@ -29,7 +29,7 @@ const renderPokemon = async (pokemon) => {
     const pokemonImage = document.querySelector('.pokemon__image');
     const pokemonImage2 = document.querySelector('.pokemon__image2');
   
-    pokemonName.innerHTML = 'Loading...';
+    pokemonName.innerHTML = 'Carregando...';
     pokemonNumber.innerHTML = '';
     pokemonTypes.innerHTML = '';
     pokemonEvolutions.innerHTML = '';
